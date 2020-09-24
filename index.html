@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Panzer of the lake</title>
+        <link href="style.css" rel="stylesheet" /> 
+    </head>
+    <body>
+        <div id="header">
+            <h1>Wisdom of the lake Dweller</h1>
+            <P> For Brave wanderers, seeking grand knowledge</P>
+        </div>
+        <p style="text-align: center;">_________________________________________________________________________</p>
+        <br>
+        <div class="center">
+            <button onclick="callPanzer()">O panzer of the lake, what is your Wisdom</button>
+        </div>
+        <div class="wisdom">
+            <p id="Panzer" class="center colorify"> So thy wish of the wisdom from the lake</p>
+            <p id="Wisdom" class="center colorify"></p>
+            <img src="https://i.kym-cdn.com/entries/icons/mobile/000/026/828/panzer_thumb.jpg" width="500px">
+        </div>
+        <script>
+            function callPanzer(){
+                let person = prompt("Not so eager champ! State thy name first!", "Type your name here")
+                let wiseWords = ['Communism will win','YOU ARE UNDESERVING OF MY WISDOM!',"K-pop isn't real music","They always ask what my wisdom is, never how my wisdom is","as f*ck is the best unit measurement"]
+                if (person !== null && person !== "Type your name here"){
+                    document.getElementById("Panzer").innerText = 
+                    `Hello there, General ${person}. This is your wisdom of the day`
+                    document.getElementById("Wisdom").innerText =  wiseWords[(Math.floor(Math.random() * 5)+ 1)]
+                    console.log((Math.floor(Math.random() * 5)+ 1))
+                    console.log(wiseWords[3])
+
+                }
+            }
+
+        </script>
+    </body>
+</html>

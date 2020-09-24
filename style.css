@@ -1,0 +1,48 @@
+#header{
+    font-family: "Bebas Neue",monospace;
+    color: tomato;
+    margin-left: 21%;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background-color: #a3d2ca;
+    border: 1px;
+    width: 1000px;
+    position: relative;
+    font-weight: 900;
+}
+
+@font-face{
+    font-family: bebasNueve;
+    src: url();
+}
+
+#header p{
+    font-size: 15px;
+    text-align: center;
+    font-family:  'Times New Roman', Times, serif;
+}
+
+body{
+    background-color:#ebebeb ;
+    background-image: url(https://wallpaperaccess.com/full/366638.jpg);
+}
+.center{
+    text-align: center;
+}
+.colorify{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+.wisdom{
+    text-align: center;
+    position: relative;
+}
+
+#wisdom{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
